@@ -125,6 +125,7 @@ fun main(args: Array<String>) {
 }
 */
 
+/* This is Section 6
 fun main(args: Array<String>) {
     // Loops in Kotlin
     // For Loop
@@ -210,6 +211,56 @@ fun main(args: Array<String>) {
     }
 
 }
+
+*/
+
+/* This is section 7.1
+fun main(args: Array<String>) {
+    var sum = add(2,4)
+    println("Sum is " + sum)
+
+
+}
+
+fun add(a: Int, b: Int): Int  {
+ //   var a = 2
+ //   var b = 4
+ //   var sum = a + b
+ //   print ("Sum is ${a + b}")
+
+    return a+b
+}
+
+*/
+
+fun main(args: Array<String>) {
+    var largeValue = max(4,6)
+
+    println("The greater number is $largeValue")
+
+}
+
+fun max(a: Int, b: Int): Int
+        = if (a > b) {
+             println("$a is greater")
+             a
+          }else {
+             println("$b is greater")
+             b
+           //  98
+          }
+/*
+{
+    /*
+    if (a > b)
+        return a
+    else
+        return b
+    */
+
+}
+
+*/
 /* This is section:
 fun main(args: Array<String>) {
 
