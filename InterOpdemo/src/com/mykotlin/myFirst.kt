@@ -177,14 +177,18 @@ fun main(args: Array<String>){
     // Elements:  0 0 0 0 0 0
     // Index:     0 1 2 3 4 5
 
-    /*
+
     var myArray = Array<Int>(6) { 0 }  // Mutable. Fixed Size.
     myArray[0] = 32
     myArray[3] = 54
     myArray[1] = 11
 
+    for (element in myArray) {
+        println(element)
+    }
 
-    */
+
+
 
     // List Tutorial
 
@@ -429,7 +433,7 @@ fun main(args: Array<String>){
 
     country.setup()
     */
-
+/*
     println("Some initial code....")
 
     val area1 = pi * 4 * 4
@@ -437,7 +441,7 @@ fun main(args: Array<String>){
     val area2 = pi * 9 * 9
 
     println("Some more code.....")
-
+*/
 }
 
 class Country {
